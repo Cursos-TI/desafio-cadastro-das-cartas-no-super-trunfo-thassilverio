@@ -7,10 +7,10 @@ int main(){
     char estado2[50];
     char cidade1[50];
     char cidade2[50];
-    int população1;
-    int população2;
-    float área1;
-    float área2;
+    int populacao1;
+    int populacao2;
+    float area1;
+    float area2;
     float PIB1;
     float PIB2;
     int pontoturistico1;
@@ -25,9 +25,9 @@ int main(){
     printf("Digite o nome da cidade: ");
     scanf("%s", &cidade1);
     printf("Digite a população da cidade: ");
-    scanf("%d", &população1);
+    scanf("%d", &populacao1);
     printf("Área da cidade em km²: ");
-    scanf("%f", &área1);
+    scanf("%f", &area1);
     printf("PIB: ");
     scanf("%f", &PIB1);
     printf("Número de Pontos turisticos: ");
@@ -44,9 +44,9 @@ int main(){
     printf("Digite o nome da cidade: ");
     scanf("%s", &cidade2);
     printf("Digite a população da cidade: ");
-    scanf("%d", &população2);
+    scanf("%d", &populacao2);
     printf("Área da cidade em km²: ");
-    scanf("%f", &área2);
+    scanf("%f", &area2);
     printf("PIB: ");
     scanf("%f", &PIB2);
     printf("Número de Pontos turisticos: ");
@@ -59,8 +59,8 @@ int main(){
     printf("Estado: %s \n", estado1);
     printf("Código: %s, %s \n", estado1, codigo1);
     printf("Nome da cidade: %s \n",cidade1);
-    printf("População: %d \n", população1);
-    printf("Área em Km²: %f km²\n", área1);
+    printf("População: %d \n", populacao1);
+    printf("Área em Km²: %f km²\n", area1);
     printf("PIB: %f bilhoes de Reais\n", PIB1);
     printf("Número de Pontos Turisticos: %d \n", pontoturistico1);
 
@@ -70,8 +70,8 @@ int main(){
     printf("Estado: %s \n", estado2);
     printf("Código: %s, %s \n", estado2, codigo2);
     printf("Nome da cidade: %s \n",cidade2);
-    printf("População: %d \n", população2);
-    printf("Área em Km²: %f km²\n", área2);
+    printf("População: %d \n", populacao2);
+    printf("Área em Km²: %f km²\n", area2);
     printf("PIB: %f bilhoes de Reais\n", PIB2);
     printf("Número de Pontos Turisticos: %d \n", pontoturistico2);
 
